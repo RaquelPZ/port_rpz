@@ -1,0 +1,95 @@
+/* Basic */
+*{
+    margin:0;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(50, 0, 52);
+    color: aliceblue;
+    text-align: center;
+}
+
+a { 
+    text-decoration: none;
+}
+
+button {
+    border:none;
+    background-color: transparent;
+    /* padding-block: 12px;
+    padding-inline: 15px; */
+    img{
+        width: 25px;
+    }
+}
+
+/* Base */
+header{
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-block: 25px;
+}
+
+nav{
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-block: 20px;
+}
+
+main {
+    letter-spacing: 1.2px;
+}
+
+section {
+  
+}
+
+aside{
+    letter-spacing: 1.25px;
+    margin-block: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1.25px;
+    margin-block: 50px;
+    gap: 10px;
+}
+
+/* Index */
+.text{
+    line-height: 1.5;
+    margin-block: 25px;
+    padding: 8%;
+}
+
+/* Home */
+.main_work {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+    .work_map {
+        height: 120px;
+        margin: 5px;
+        /* background-color: black; */
+        position: relative;
+        object-fit: cover;
+        object-position: center;
+        img{
+            height: 100%;
+        }
+    }
+.btn_mini {
+    color:aliceblue;
+    width: 70px;
+    a{color:aliceblue}
+    p{font-size: 1.1em; letter-spacing: 1.5px;}
+}
