@@ -1,6 +1,14 @@
+:root {
+  --tur-cla: #0bd3ac;
+  --tur-osc: #008b8b;
+  --mor-osc: #630b68;
+  --mor-cla: #8b008b;
+  --mor-fon: #320034;
+}
+
 /* Basic */
-*{
-    margin:0;
+* {
+    margin: 0;
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
@@ -8,46 +16,43 @@
 }
 
 body {
-    background-color: rgb(50, 0, 52);
-    color: #0bd3ac;
+    background-color: var(--mor-fon);
+    color: var(--tur-cla);
     text-align: center;
 }
 
-h1{
+h1 {
     color: aliceblue;
     font-size: 50px;
     margin-block: 60px;
 }
 
-h2{
+h2 {
     color: aliceblue;
 }
 
-a { 
+a {
     text-decoration: none;
     color: aliceblue;
     letter-spacing: 2px;
 }
 
 button {
-    border:none;
+    border: none;
     background-color: transparent;
-    /* padding-block: 12px;
-    padding-inline: 15px; */
-    img{
+    img {
         width: 25px;
     }
 }
 
 /* Base */
-header{
+header {
     font-size: 20px;
     letter-spacing: 4px;
     margin-block: 25px;
 }
 
-nav{
-    color
+nav {
     font-size: 18px;
     letter-spacing: 3px;
     line-height: 25px;
@@ -59,35 +64,48 @@ main {
 }
 
 section {
-  margin-block: 5px;
+    margin-block: 5px;
 }
 
-aside{
+article {
+    background-color: var(--tur-cla);
+    color: var(--mor-osc);
+    position: absolute;
+    width: 200px;
+    /* height: 300px; */
+    padding: 25px;
+    p{letter-spacing: 1.1px;}
+}
+
+aside {
     letter-spacing: 1.25px;
     margin-block: 50px;
 }
 
-footer{
+footer {
     width: 100%;
     position: sticky;
     bottom: 0;
-    background-color: #5a0c60;
+    background-color: var(--mor-osc);
     display: flex;
     justify-content: center;
     letter-spacing: 1.25px;
-    padding-block: 15px ;
+    padding-block: 15px;
     gap: 10px;
 }
 
 /* Index */
-.text{
+.text {
     line-height: 1.5;
     margin-block: 25px;
     padding: 8%;
 }
-.ofi{
-    margin: 20px;
+
+.ofi {
+    margin: 12px;
+    letter-spacing: 1.1px;
 }
+
 .name {
     color: aliceblue;
     margin: 10px;
@@ -97,6 +115,7 @@ footer{
 .destino {
     margin: 20px;
 }
+
 .main_work {
     display: flex;
     flex-wrap: wrap;
@@ -105,41 +124,89 @@ footer{
     margin-bottom: 76px;
     gap: 12px;
 }
-    .work_map {
-        height: 120px;
-        margin: 5px;
-        margin-bottom: 15px;
-        position: relative;
-        object-fit: cover;
-        object-position: center;
-        img{
-            height: 100%;
-        }
+
+.work_map {
+    height: 120px;
+    margin: 5px;
+    margin-bottom: 15px;
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+
+    img {
+        height: 100%;
     }
+}
+
 .btn_mini {
     width: 70px;
-    a{color: #0bd3ac;}
-    p{font-size: 1.1em; letter-spacing: 1.5px;}
+
+    a {
+        color: var(--tur-cla);
+    }
+
+    p {
+        font-size: 1.1em;
+        letter-spacing: 1.5px;
+    }
+}
+
+/* Home / Info */
+.info_max {
+    margin-block: 10px;
+}
+.info_icon{
+    margin-block: 10px;
+}
+.info_btn {
+    background-color: var(--mor-osc);
+    color: #var(--tur-cla);
+    margin-block: 10px;
+    padding: 12px;
+    animation: pulsar 1.25s ease-in-out infinite;
 }
 
 /* Efectos */
 .pulse {
-  font-size: 15px;
-  animation: pulsar 1.25s ease-in-out infinite;
-  border: none;
+    font-size: 15px;
+    animation: pulsar 1.25s ease-in-out infinite;
+    border: none;
 }
 
 @keyframes pulsar {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.2); }
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
 }
 
 .pulse_2 {
-  animation: pulsar 1.5s ease-in-out infinite;
-  border: none;
+    animation: pulsar_2 1.5s ease-in-out infinite;
+    border: none;
 }
 
-@keyframes pulsar {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.025); }
+@keyframes pulsar_2 {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.025);
+    }
 }
+
+/* #info_tijera {
+    background-color: #0bd3ac;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+# {} */

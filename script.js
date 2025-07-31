@@ -1,6 +1,11 @@
-let anims = [...document.querySelectorAll("[anim]")];
-console.log(anims);
-let click = (el, cb) => el.addEventListener("click", cb);
-let toggle = (el) => el.classList.toggle("toggled");
-let clickTog = (el) => click(el, () => toggle(el));
-anims.map(clickTog);
+// const button = document.getElementById('btn_tijera');
+// const infoBox = document.getElementById('info_tijera');
+
+// button.addEventListener('click', (ev) => {
+//   ev.stopPropagation();
+//   infoBox.classList.toggle('visible');
+// });
+
+// document.addEventListener('click', () => {
+//   infoBox.classList.remove('visible');
+// });
