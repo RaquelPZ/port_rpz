@@ -9,12 +9,24 @@
 
 body {
     background-color: rgb(50, 0, 52);
-    color: aliceblue;
+    color: #0bd3ac;
     text-align: center;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 50px;
+    margin-block: 60px;
+}
+
+h2{
+    color: aliceblue;
 }
 
 a { 
     text-decoration: none;
+    color: aliceblue;
+    letter-spacing: 2px;
 }
 
 button {
@@ -35,9 +47,11 @@ header{
 }
 
 nav{
+    color
     font-size: 18px;
     letter-spacing: 3px;
-    margin-block: 20px;
+    line-height: 25px;
+    margin-inline: 15%;
 }
 
 main {
@@ -45,7 +59,7 @@ main {
 }
 
 section {
-  
+  margin-block: 5px;
 }
 
 aside{
@@ -54,10 +68,14 @@ aside{
 }
 
 footer{
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    background-color: #5a0c60;
     display: flex;
     justify-content: center;
     letter-spacing: 1.25px;
-    margin-block: 50px;
+    padding-block: 15px ;
     gap: 10px;
 }
 
@@ -67,19 +85,30 @@ footer{
     margin-block: 25px;
     padding: 8%;
 }
+.ofi{
+    margin: 20px;
+}
+.name {
+    color: aliceblue;
+    margin: 10px;
+}
 
 /* Home */
+.destino {
+    margin: 20px;
+}
 .main_work {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    margin-bottom: 76px;
+    gap: 12px;
 }
     .work_map {
         height: 120px;
         margin: 5px;
-        /* background-color: black; */
+        margin-bottom: 15px;
         position: relative;
         object-fit: cover;
         object-position: center;
@@ -88,8 +117,29 @@ footer{
         }
     }
 .btn_mini {
-    color:aliceblue;
     width: 70px;
-    a{color:aliceblue}
+    a{color: #0bd3ac;}
     p{font-size: 1.1em; letter-spacing: 1.5px;}
+}
+
+/* Efectos */
+.pulse {
+  font-size: 15px;
+  animation: pulsar 1.25s ease-in-out infinite;
+  border: none;
+}
+
+@keyframes pulsar {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+.pulse_2 {
+  animation: pulsar 1.5s ease-in-out infinite;
+  border: none;
+}
+
+@keyframes pulsar {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.025); }
 }
