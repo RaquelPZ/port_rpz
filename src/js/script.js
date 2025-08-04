@@ -32,7 +32,7 @@ btnManjar.addEventListener('click', (ev) => {
   info.classList.replace('info_off', 'info_on');
   printManjar();
 });
-//cerrar info
+//Cerrar info
 info.addEventListener('click', (ev) => {
   info.classList.replace('info_on', 'info_off');
   let txt = '';
@@ -101,7 +101,6 @@ function printMatch() {
 }
 function printManjar() {
   txt = `
-  <button class="info_btn"><a href="https://raquelpz.github.io/pptijera/" target="_blank"><p>FOTOS</p></a></button>
         <h3 class="info_max">MANJAR</h3>
         <p>Diseño de marca para un restaurante y su respectiva cartelería</p>
         <div class="info_icon">
