@@ -42,11 +42,11 @@ info.addEventListener('click', (ev) => {
 function printTijera() {
   txt = `
         <h3 class="info_max">TIJERA</h3>
-        <p>Pequeño juego web de azar con el que podrás jugar a Piedra, Papel y Tijera contra el "ordenador"</p>
         <div class="info_icon">
             <h5>HTML / CSS / JAVASCRIPT</h5>
             <h5>Illustrator</h5>
-            </div>
+        </div>
+        <p>Pequeño juego web de azar con el que podrás jugar a Piedra, Papel y Tijera contra el "ordenador"</p>
         <button class="info_btn"><a href="https://raquelpz.github.io/pptijera/" target="_blank"><p>WEB</p></a></button>
         `;
   infoBox.innerHTML = txt;
@@ -54,10 +54,10 @@ function printTijera() {
 function printSenoro() {
   txt = `
         <h3 class="info_max">SEÑORO</h3>
-        <p>Juego de mesa illustrado con un pequeño librito</p>
         <div class="info_icon">
-            <h5>Illustrator / Indesign / Photoshop</h5>
-            </div>
+          <h5>Illustrator / Indesign / Photoshop</h5>
+        </div>
+        <p>Juego de mesa illustrado con un pequeño librito</p>
         <button class="info_btn"><a href="https://raquelpz.github.io/pptijera/" target="_blank"><p>FOTOS</p></a></button>
         `;
   infoBox.innerHTML = txt;
@@ -79,11 +79,11 @@ function printSopa() {
 function printEditorial() {
   txt = `
         <h3 class="info_max">EDITORIAL</h3>
-        <p>Colección de algunos diseños de portadas de libros en mi paso por editoriales</p>
         <div class="info_icon">
             <h5>Illustrator / Indesign / Photoshop</h5>
             <h5>Ilustración a mano</h5>
-            </div>
+          </div>
+        <p>Colección de algunos diseños de portadas de libros en mi paso por editoriales</p>
         <button class="info_btn"><a href="https://raquelpz.github.io/pptijera/" target="_blank"><p>FOTOS</p></a></button>
         `;
   infoBox.innerHTML = txt;
@@ -91,22 +91,24 @@ function printEditorial() {
 function printMatch() {
   txt = `
         <h3 class="info_max">MATCH</h3>
-        <p>Buscador web que muestra una recopilación de personajes de una base de datos</p>
         <div class="info_icon">
             <h5>HTML / CSS / REACT / SQL</h5>
-            </div>
+        </div>
+        <p>Buscador web que muestra una recopilación de personajes de una base de datos</p>
         <button class="info_btn"><a href="https://raquelpz.github.io/pptijera/" target="_blank"><p>WEB</p></a></button>
         `;
   infoBox.innerHTML = txt;
 }
 function printManjar() {
   txt = `
+        <div class="info_pix"></div>
         <h3 class="info_max">MANJAR</h3>
-        <p>Diseño de marca para un restaurante y su respectiva cartelería</p>
         <div class="info_icon">
             <h5>Illustrator / Indesign</h5>
-            </div>
+        </div>
+        <p>Diseño de marca para un restaurante y su respectiva cartelería</p>
         <button class="info_btn"><a href="https://raquelpz.github.io/pptijera/" target="_blank"><p>FOTOS</p></a></button>
+        <div class="info_pix"></div>
         `;
   infoBox.innerHTML = txt;
 }
