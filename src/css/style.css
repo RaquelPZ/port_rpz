@@ -52,7 +52,8 @@ button {
 header {
     font-size: 20px;
     letter-spacing: 4px;
-    margin-block: 25px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 nav {
@@ -106,25 +107,31 @@ footer {
 }
 
 /* Index */
-.text {
-    line-height: 1.5;
-    margin-block: 25px;
-    padding: 8%;
+
+.name {
+    margin-bottom: 10px;
 }
 
 .ofi {
-    margin: 12px;
+    margin: 25px;
     letter-spacing: 1.1px;
+    color: aliceblue;
 }
 
-.name {
+.text {
+    p{margin-block: 15px;}
+    strong{color: var(--tur-cla);}
     color: aliceblue;
-    margin: 10px;
+    line-height: 1.5;
+    margin-block: 100px;
+    padding-inline: 10%;
 }
+
+
 
 /* Home */
 .destino {
-    margin: 20px;
+    margin-bottom: 10px;
 }
 
 .main_work {
@@ -137,7 +144,7 @@ footer {
 }
 
 .work_map {
-    height: 120px;
+    height: 100px;
     margin: 5px;
     margin-bottom: 15px;
     position: relative;
@@ -179,9 +186,13 @@ footer {
 
 }
 .pulse {
+    p{color: var(--mor-cla);}
     font-size: 15px;
     animation: pulsar 1.25s ease-in-out infinite;
     border: none;
+    /* padding-block: 6px;
+    padding-inline: 10px;
+    background-color: var(--mor-cla); */
 }
 
 @keyframes pulsar {
@@ -222,7 +233,6 @@ footer {
         margin-bottom: 20px;
         img {height: 100%;}
     }
-
     .work_map:hover {
         opacity: 75%;
         cursor: pointer;

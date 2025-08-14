@@ -63,11 +63,11 @@ section{
     p{font-size: 1.25em;}
     .p_min{font-size: 1.05em;}
 
-header{
-    margin-inline: 28%;
-}
+    header{
+        margin-inline: 28%;
+    }
     section{
-        width: 300px;
+        width: 320px;
     }
 
     nav{
