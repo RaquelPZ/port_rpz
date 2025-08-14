@@ -58,7 +58,7 @@ function printSenoro() {
           <h5>Illustrator / Indesign / Photoshop</h5>
         </div>
         <p>Juego de mesa illustrado con un pequeño librito</p>
-        <button class="info_btn"><a href="https://raquelpz.github.io/pptijera/" target="_blank"><p>FOTOS</p></a></button>
+        <button class="info_btn"><a href="t_senoro.html" target="_blank"><p>FOTOS</p></a></button>
         `;
   infoBox.innerHTML = txt;
 }
@@ -71,8 +71,8 @@ function printSopa() {
             <h5>Photoshop</h5>
             <h5>Ilustración a mano</h5>
             </div>
-        <button class="info_btn"><a href="https://raquelpz.github.io/pptijera/" target="_blank"><p>FOTOS</p></a></button>
-        <button class="info_btn"><a href="https://raquelpz.github.io/pptijera/" target="_blank"><p>WEB</p></a></button>
+        <button class="info_btn"><a href="t_sopa.html" target="_blank"><p>FOTOS</p></a></button>
+        <button class="info_btn"><a href="https://raquelpz.github.io/sopareja/" target="_blank"><p>WEB</p></a></button>
         `;
   infoBox.innerHTML = txt;
 }
@@ -84,7 +84,7 @@ function printEditorial() {
             <h5>Ilustración a mano</h5>
           </div>
         <p>Colección de algunos diseños de portadas de libros en mi paso por editoriales</p>
-        <button class="info_btn"><a href="https://raquelpz.github.io/pptijera/" target="_blank"><p>FOTOS</p></a></button>
+        <button class="info_btn"><a href="t_editorial.html" target="_blank"><p>FOTOS</p></a></button>
         `;
   infoBox.innerHTML = txt;
 }
@@ -95,7 +95,7 @@ function printMatch() {
             <h5>HTML / CSS / REACT / SQL</h5>
         </div>
         <p>Buscador web que muestra una recopilación de personajes de una base de datos</p>
-        <button class="info_btn"><a href="https://raquelpz.github.io/pptijera/" target="_blank"><p>WEB</p></a></button>
+        <button class="info_btn"><a href="https://raquelpz.github.io/shippi/" target="_blank"><p>WEB</p></a></button>
         `;
   infoBox.innerHTML = txt;
 }
@@ -107,7 +107,7 @@ function printManjar() {
             <h5>Illustrator / Indesign</h5>
         </div>
         <p>Diseño de marca para un restaurante y su respectiva cartelería</p>
-        <button class="info_btn"><a href="https://raquelpz.github.io/pptijera/" target="_blank"><p>FOTOS</p></a></button>
+        <button class="info_btn"><a href="t_manjar.html" target="_blank"><p>FOTOS</p></a></button>
         <div class="info_pix"></div>
         `;
   infoBox.innerHTML = txt;
