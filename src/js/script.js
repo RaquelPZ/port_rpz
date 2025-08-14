@@ -72,7 +72,7 @@ function printSopa() {
             <h5>Ilustración a mano</h5>
             </div>
         <button class="info_btn"><a href="t_sopa.html" target="_blank"><p>FOTOS</p></a></button>
-        <button class="info_btn"><a href="https://raquelpz.github.io/sopareja/" target="_blank"><p>WEB</p></a></button>
+        <button class="info_btn"><a href="https://raquelpz.github.io/modulo-2-evaluacion-final-RaquelPZ-2/" target="_blank"><p>WEB</p></a></button>
         `;
   infoBox.innerHTML = txt;
 }
@@ -95,7 +95,7 @@ function printMatch() {
             <h5>HTML / CSS / REACT / SQL</h5>
         </div>
         <p>Buscador web que muestra una recopilación de personajes de una base de datos</p>
-        <button class="info_btn"><a href="https://raquelpz.github.io/shippi/" target="_blank"><p>WEB</p></a></button>
+        <button class="info_btn"><a href="https://beta.adalab.es/modulo-3-evaluacion-final-RaquelPZ/" target="_blank"><p>WEB</p></a></button>
         `;
   infoBox.innerHTML = txt;
 }

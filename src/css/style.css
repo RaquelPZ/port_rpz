@@ -72,12 +72,21 @@ section {
 
 article {
     display: none;
-    position: absolute;
+    position: fixed;
+    top: 33%;
     width: 250px;
     gap: 0;
+    /* transition: top 2s; */
+        /* transform: translateX(-150%); /* Oculto a la izquierda */
+        /* opacity: 0;
+        transition: transform 5s ease, opacity 0.5s ease; */
     .bor_inline{display: none;}
     .bor_block{display: block; width: 100%;}
 }
+/* article.active {
+  transform: translateX(0); /* Posición normal */
+  /* opacity: 1;
+} */ 
 
 aside {
     letter-spacing: 1.25px;
@@ -166,6 +175,9 @@ footer {
 }
 
 /* Efectos */
+.info_pop {
+
+}
 .pulse {
     font-size: 15px;
     animation: pulsar 1.25s ease-in-out infinite;
@@ -227,6 +239,7 @@ footer {
         display: flex;
         flex-direction: row;
         width: 850px;
+        top: 20%;
         .bor_block{display: none;}
         .bor_inline{display: flex;}
         margin-top: 250px;

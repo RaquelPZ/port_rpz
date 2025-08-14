@@ -24,6 +24,7 @@ body {
     background-color: var(--mor-fon);
     color: var(--tur-cla);
     text-align: center;
+    justify-content: center;
     letter-spacing: 1.2px;
     line-height: 1.25;
 }
@@ -43,6 +44,10 @@ nav{
 main{
     margin: 20px;
     padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
 }
 section{
     background-color: var(--tur-osc);
@@ -52,3 +57,16 @@ section{
 }
 .t_img{object-fit: contain;}
 .t_txt{padding: 10px;}
+
+@media only screen and (min-width: 500px) {
+    p{font-size: 1.25em;}
+
+    section{
+        width: 300px;
+    }
+
+    nav{
+        padding-inline: 18%;
+        /* max-width: 1000px; */
+    }
+}
