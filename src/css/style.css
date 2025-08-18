@@ -125,6 +125,7 @@ footer {
     line-height: 1.5;
     margin-block: 100px;
     padding-inline: 10%;
+    max-width: 80%;
 }
 
 
@@ -245,6 +246,11 @@ footer {
     .btn_mini {
         img{transition: 0.5s;}   
     }
+    aside{
+        position: absolute;
+        left: 47%;
+        bottom: 75px;
+    }
     article {
         display: flex;
         flex-direction: row;
@@ -276,25 +282,6 @@ footer {
         button{margin-inline: 10px;}
         h5{margin-block: 7.5px;}
     }
-
-    /* main {
-        display: grid;
-        grid-template-columns: 40% 20% 20% 20%;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-        "ar sti sso smn"
-        "ar sti sso smn"
-        "ar sse sed smt"
-        "ar sse sed smt"
-    } */
-  
-    /* article {display: grid; grid-area: ar;}
-    .btn_tijera {display: grid; grid-area: sti;}
-    .btn_sopa{display: grid; grid-area: sso;}
-    .btn_match{display: grid; grid-area: smn;}
-    .btn_senoro{display: grid; grid-area: sse;}
-    .btn_editorial{display: grid; grid-area: sed;}
-    .btn_match{display: grid; grid-area: smt;} */
 
     footer{
         display: absolute;

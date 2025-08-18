@@ -55,8 +55,21 @@ section{
     margin-block: 15px;
     width: 100%;
 }
-.t_img{object-fit: contain;}
-.t_txt{padding: 10px;}
+.t_img{
+    height: 320px;
+}
+.t_img_plus{
+    height: 500px;
+}
+.t_txt{
+    height: 50px;
+    padding: 10px;
+}
+.t_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 @media only screen and (min-width: 550px) {
     h2{font-size: 2.5em;}
@@ -71,7 +84,7 @@ section{
     }
 
     nav{
-        padding-inline: 18%;
+        padding-inline: 20%;
         /* max-width: 1000px; */
     }
 }
