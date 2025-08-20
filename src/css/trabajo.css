@@ -39,10 +39,10 @@ header{
     color: var(--tur-cla);
 }
 nav{
-    padding-inline: 20px;
+    padding-inline: 50px;
 }
 main{
-    margin: 20px;
+    margin-inline: 50px;
     padding-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -54,6 +54,7 @@ section{
     color: var(--mor-osc);
     margin-block: 15px;
     width: 100%;
+    cursor:pointer ;
 }
 .t_img{
     height: 320px;
@@ -79,12 +80,13 @@ section{
     header{
         margin-inline: 28%;
     }
-    section{
-        width: 320px;
-    }
-
     nav{
         padding-inline: 20%;
-        /* max-width: 1000px; */
+    }
+    main{
+        margin: 20px ;
+    }
+    section{
+        width: 320px;
     }
 }

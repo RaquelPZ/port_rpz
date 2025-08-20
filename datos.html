@@ -1,68 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/css/style.css">
     <title>datos_RPZ</title>
 </head>
+
 <body>
     <header>
         <h2>Mi contacto</h2>
     </header>
-    <nav>
-        <h4>TE DOY LA BIENVENIDA AL PORTFOLIO DE:</h4>
-        <div class="name">
-            <h3>RAQUEL</h3>
-            <h3>PÉREZ ZARZUELO</h3>
-        </div>
+    <nav class="correo">
+        <h3>Escríbeme:</h3>
+        <form action="https://formspree.io/f/tu-endpoint" method="POST" class="contact-form">
+            <label>
+                <p>Nombre:</p>
+                <input type="text" name="name" required>
+            </label>
+            <label>
+                <p>Email:</p>
+                <input type="email" name="email" required>
+            </label>
+            <label>
+                <p>Mensaje: </p>
+                <textarea name="message" required></textarea>
+            </label>
+            <div><button class="btn_ok" type="submit">Enviar</button></div>
+        </form>
     </nav>
 
-  <article>
-    <section>
-      <div>
-        <h2>Pulse</h2>
-        <p>Partying</p>
-      </div>
-      <div>
-        <button anim="pulse">CLICK ME</button>
-      </div>
-    </section>
-  </article>
 
-
-    <main class="text">
+    <main class="rrss">
         <div class="ofi">
-            <p class=""> Programadora Web</p>
-            <p class=""> Diseñadora Gráfica</p>
+            <a href="https://www.bing.com/maps?pglt=2339&q=ALCOBENDAS+GOOGLE+MAPS&cvid=0bc51b5f468f4f8c80f2bd8bc56042de&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOdIBCDYxNzJqMGoxqAIAsAIA&FORM=ANNTA1&PC=NMTS"><p class="">Alcobendas / Madrid</p></a>
+            <a href="https://www.instagram.com/ra.d.cheel/?__d=1%2F"><p class="">@ra.d.cheel</p></a>
+            <a href="https://www.instagram.com/ra.d.cheel/?__d=1%2F"><p class="">Raquel P. Zarzuelo</p></a>
+            <a href="https://www.instagram.com/ra.d.cheel/?__d=1%2F"><p class="">RaquelPZ</p></a>
         </div>
-        <p class=""> Especializada en Desarrollo Frontend, combinando habilidades en diseño visual y conocimientos técnicos en programación, más experiencia en campos gráficos</p>
     </main>
     <aside>
-        <button><a href="home.html"><p>PULSA STAR</p></a></button>
+        <button class="pulse"><a href=""><p>DESCARGAR CV</p></a></button>
     </aside>
     <footer>
         <div class="btn_mini"><button><a href="index.html">
-            <img src="imagen/boton_atras.png" alt="imagen boton">
-            <p>inicio</p>
-        </a></button></div>
+                    <img src="public/images/boton_atras.png" alt="imagen boton">
+                    <p>inicio</p>
+                </a></button></div>
         <div class="btn_mini"><button><a href="datos.html">
-            <img src="imagen/boton_yo.png" alt="imagen boton">
-            <p>datos</p>
-        </a></button></div>
+                    <img src="public/images/boton_yo.png" alt="imagen boton">
+                    <p>datos</p>
+                </a></button></div>
         <div class="btn_mini"><button><a href="skills.html">
-            <img src="imagen/boton_skills.png" alt="imagen boton">
-            <p>skills</p>
-        </a></button></div>
+                    <img src="public/images/boton_skills.png" alt="imagen boton">
+                    <p>skills</p>
+                </a></button></div>
         <div class="btn_mini"><button><a href="more.html">
-            <img src="imagen/boton_mas.png" alt="imagen boton">
-            <p>más</p>
-        </a></button></div>
+                    <img src="public/images/boton_mas.png" alt="imagen boton">
+                    <p>más</p>
+                </a></button></div>
     </footer>
-    
-    
+
+
 </body>
+
 </html>
