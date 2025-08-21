@@ -171,7 +171,8 @@ footer {
     background-color: var(--mor-osc);
     color: var(--tur-cla);
     margin-top: 10px;
-    padding: 12px;
+    padding-inline: 12px;
+    padding-block: 6px;
     animation: pulsar 1.25s ease-in-out infinite;
 }
 .info_box{
@@ -188,12 +189,13 @@ footer {
     flex-direction: column;
     margin-top: 25px;
     p{margin-top: 12px;margin-bottom: 3px;}
-    input, textarea {
+    input {
         background-color: var(--tur-osc);
         color: var(--mor-cla);
         padding: 7.5px;
+        width: 90%;
     }
-    textarea {height: 50px;}
+    .input_max {height: 50px;}
 }   
 .rrss{
     p{margin-block: 10px;}
@@ -217,7 +219,7 @@ footer {
     strong{color: var(--tur-cla);}
     color: aliceblue;
     line-height: 1.5;
-    margin-block: 100px;
+    margin-block: -100px;
     padding-inline: 10%;
     max-width: 80%;
 }
@@ -255,6 +257,10 @@ footer {
 }
 
 @media only screen and (min-width: 900px) {
+    input {
+        max-width: 400px;
+    }
+    .input_max {max-width: 600px;}
     body{
         /* overflow-y: scroll;
         overflow-x: scroll; */
@@ -302,6 +308,7 @@ footer {
         margin-block: 0px;
         width: 300px;
     }
+    .info_pop{ margin-block: 200px;}
     .info_btn {
         margin-top: 0px;
         padding: 12px;
