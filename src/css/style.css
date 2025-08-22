@@ -189,7 +189,7 @@ footer {
     flex-direction: column;
     margin-top: 25px;
     p{margin-top: 12px;margin-bottom: 3px;}
-    input {
+    input, textarea{
         background-color: var(--tur-osc);
         color: var(--mor-cla);
         padding: 7.5px;
@@ -212,6 +212,11 @@ footer {
     padding-block: 7.5px;
     margin-block: 15px;
 }
+
+/* skills */
+.skill{margin-top: 0px; margin-bottom: ;}
+.barras p{margin: 0;}
+.barras h3{margin-top: 10px;}
 
 /* Efectos */
 .info_pop {
@@ -324,10 +329,14 @@ footer {
         button{margin-inline: 10px;}
         h5{margin-block: 7.5px;}
     }
-
     footer{
         display: absolute;
         top: 0;
     }
-
+    /* .text {margin-inline: 20%;} */
+    .barras {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+    }
 }
