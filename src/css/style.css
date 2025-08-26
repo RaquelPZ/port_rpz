@@ -50,6 +50,11 @@ a {
     letter-spacing: 2px;
 }
 
+mark {
+    background-color: transparent;
+    color: var(--tur-osc);
+}
+
 button {
     border: none;
     background-color: transparent;
@@ -221,10 +226,11 @@ footer {
     margin-block: 15px;
 }
 
+
 /* skills */
 .skill{margin-top: 0px; margin-bottom: ;}
 .barras p{margin: 0;}
-.barras h3{margin-top: 10px;}
+.barras h3{margin-top: 10px; color: var(--tur-cla)}
 
 /* Efectos */
 .info_pop {
@@ -302,7 +308,7 @@ footer {
     }
     aside{
         position: absolute;
-        left: 47%;
+        left: 46%;
         bottom: 75px;
     }
     article {

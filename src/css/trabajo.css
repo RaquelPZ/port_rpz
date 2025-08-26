@@ -71,6 +71,7 @@ section{
     height: 100%;
     object-fit: cover;
 }
+em{color: var(--mor-cla)}
 
 @media only screen and (min-width: 550px) {
     h2{font-size: 2.5em;}
