@@ -72,7 +72,7 @@ function printSopa() {
             <h5>Ilustración a mano</h5>
             </div>
         <button class="info_btn"><a href="t_sopa.html" target="_blank"><p>GALERY</p></a></button>
-        <button class="info_btn"><a href="https://raquelpz.github.io/modulo-2-evaluacion-final-RaquelPZ-2/" target="_blank"><p>WEB</p></a></button>
+        <button class="info_btn"><a href="error.html" target="_blank"><p>WEB</p></a></button>
         `;
   infoBox.innerHTML = txt;
 }
